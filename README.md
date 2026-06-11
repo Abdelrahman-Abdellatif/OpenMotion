@@ -13,8 +13,9 @@ This project splits the work between **two computers**, the same way many real i
 This split is important because Linux is great at complex logic but is not good at doing things at *exactly* the right microsecond (because it's busy doing many other things at once). A small microcontroller running no operating system (or a tiny real-time OS) CAN do that. So we let each computer do what it's best at.
  
 This is the same idea used by **Klipper**, a popular open-source 3D printer firmware, where a Raspberry Pi does the planning and a small microcontroller does the step timing.
-
 This project is a part of my Final project in the Embedded_Linux Diploma at AMIT Learning.
+
+
 ---
  
 ## Why does this matter? (the real-world problem)
