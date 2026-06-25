@@ -300,4 +300,4 @@ This is a learning project, not a production system. Known limitations:
 **Abdelrahman**
 Embedded Linux & Firmware Engineer — open to opportunities
 
-[LinkedIn](#) · [GitHub](#)
+[LinkedIn](https://www.linkedin.com/in/abdelrahman-abdellatif-93371a405/) · [GitHub](#)
