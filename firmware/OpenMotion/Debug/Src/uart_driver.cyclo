@@ -1,0 +1,10 @@
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	2
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	2
+../Src/uart_driver.c:35:6:UART_Init	2
+../Src/uart_driver.c:163:6:UART_SendByte	2
+../Src/uart_driver.c:172:6:UART_SendString	2
+../Src/uart_driver.c:187:6:UART_SendFormatted	1
+../Src/uart_driver.c:207:6:USART2_IRQHandler	2
+../Src/uart_driver.c:236:10:UART_RxAvailable	1
+../Src/uart_driver.c:245:9:UART_IsMessageReady	2
+../Src/uart_driver.c:260:6:UART_CopyMessage	2

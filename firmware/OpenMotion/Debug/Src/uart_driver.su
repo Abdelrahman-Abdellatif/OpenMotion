@@ -1,0 +1,10 @@
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../Src/uart_driver.c:35:6:UART_Init	56	static
+../Src/uart_driver.c:163:6:UART_SendByte	16	static
+../Src/uart_driver.c:172:6:UART_SendString	16	static
+../Src/uart_driver.c:187:6:UART_SendFormatted	144	static
+../Src/uart_driver.c:207:6:USART2_IRQHandler	4	static
+../Src/uart_driver.c:236:10:UART_RxAvailable	4	static
+../Src/uart_driver.c:245:9:UART_IsMessageReady	8	static
+../Src/uart_driver.c:260:6:UART_CopyMessage	24	static

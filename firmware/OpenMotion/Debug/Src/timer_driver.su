@@ -1,0 +1,12 @@
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1684:22:__NVIC_EnableIRQ	16	static,ignoring_inline_asm
+/home/abdelrahman/STM32CubeIDE/workspace_2.1.1/OpenMotion/chip_headers/CMSIS/Include/core_cm4.h:1814:22:__NVIC_SetPriority	16	static
+../Src/timer_driver.c:20:6:TIM2_Init	4	static
+../Src/timer_driver.c:31:6:Delay_us	24	static
+../Src/timer_driver.c:37:10:TIM2_GetMicros	4	static
+../Src/timer_driver.c:47:6:TIM3_PWM_Init	32	static
+../Src/timer_driver.c:101:6:TIM3_SetStepperDelay	24	static
+../Src/timer_driver.c:109:6:TIM3_SetServoPulse	16	static
+../Src/timer_driver.c:117:6:TIM3_StepperStart	16	static
+../Src/timer_driver.c:133:6:TIM3_StepperStop	8	static
+../Src/timer_driver.c:141:6:TIM3_IRQHandler	8	static
+../Src/timer_driver.c:164:13:TIM3_SetStepperFrequency	24	static
