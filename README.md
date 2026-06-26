@@ -5,6 +5,7 @@
 
 A stepper motor controlled by bare-metal STM32F401RE firmware, commanded over a custom binary UART protocol, from a C application cross-compiled with Yocto and running natively on an STM32MP257F-DK industrial Linux board.
 
+you can see the project demo video here: https://www.youtube.com/watch?v=3VmNNlwZuBs
 ---
 
 ## What This Project Does
