@@ -63,12 +63,13 @@ OpenMotion/
 │   │   └── files/
 │   │       ├── main.c
 │   │       └── Makefile
-│   └── recipes-core/images/
-│       └── openmotion-image.bb
+│   └── recipes-st/
+│       └── images
+|   	    |__ st-image-weston.bbappend
 ├── docs/
 │   ├── protocol.md             # Binary protocol specification
 │   ├── wiring.md               # Hardware wiring guide
-│   └── Phase1.md               # Development log
+│   
 └── tools/
     └── test_motion.py          # Python test script
 ```
@@ -155,16 +156,10 @@ meta-openmotion/
 │   └── files/
 │       ├── main.c
 │       └── Makefile
-└── recipes-core/images/
-    └── openmotion-image.bb
+└── recipes-st/
+    └── images
+	|___ st-image-weston.bbappend
 ```
-
-**To include the app in the image, add this to `local.conf`:**
-```
-CORE_IMAGE_EXTRA_INSTALL += "openmotion-host"
-```
-
-The application is then automatically cross-compiled and installed into the root filesystem when building the image.
 
 ---
 
@@ -204,11 +199,7 @@ Clone this repo and copy `meta-openmotion/` into your Yocto workspace. Then regi
 bitbake-layers add-layer /path/to/meta-openmotion
 ```
 
-This automatically adds the layer to `bblayers.conf`. Then in **`local.conf`**, add:
-
-```
-CORE_IMAGE_EXTRA_INSTALL += "openmotion-host"
-```
+This automatically adds the layer to `bblayers.conf`.
 
 ### 4. Build and Flash
 
