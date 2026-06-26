@@ -1,5 +1,6 @@
 # OpenMotion
 
+### Yocto | Embedded Linux | Bare-metal C | STM32 | Custom UART Protocol
 **A complete embedded Linux motion control system — built from scratch.**
 
 A stepper motor controlled by bare-metal STM32F401RE firmware, commanded over a custom binary UART protocol, from a C application cross-compiled with Yocto and running natively on an STM32MP257F-DK industrial Linux board.
